@@ -15,9 +15,9 @@ from
     departments de
 
 where
-    em.manager_id = em2.employee_id
+    em.manager_id = em2.employee_id(+)
 and
-    em.department_id = de.department_id;
+    em.department_id = de.department_id(+);
 
 
 문제2.
