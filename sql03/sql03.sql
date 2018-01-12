@@ -131,7 +131,7 @@ select
    
 from
     employees em,
-    EMPLOYEES em2
+    employees em2
 
 where
     em.manager_id = em2.employee_id
